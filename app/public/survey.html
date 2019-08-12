@@ -170,7 +170,7 @@
                 </div>
                 <div class="modal-body">
                   <h4 id="bffName">BFF Name</h4>
-                  <img id = "bffPhoto" src="">
+                  <img id ="bffPhoto" src="">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -188,7 +188,6 @@
         //when user clicks submit button
         $('#submit').on("click", function(){
             //prevents page from refreshing
-            $('.modal').modal('toggle');
             event.preventDefault();
 
             var valid = true;
@@ -220,10 +219,10 @@
                 };
                 var currentURL = window.location.origin;
 
-                $.post(currentURL + "/api/friends", newFriend, function(data){
-                    $("#bffName").text(data.name);
-                    $("bffPhoto").attr("src", data.photo);
-                    $(".modal").modal("toggle");
+                 $.post(currentURL + "/api/friends", newFriend, function(data){
+                     $("#bffName").text(data.name);
+                     $("#bffPhoto").attr("src", data.photo);
+                     $(".modal").modal("toggle");
                 });
             } else {
                 alert("Survey is incomplete");
