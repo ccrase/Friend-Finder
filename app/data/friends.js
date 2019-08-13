@@ -1,7 +1,7 @@
 var friendsArray = [
     {
-        name: "Calli Crase",
-        photo: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjl_OuY8P3jAhVQGs0KHbNWB-IQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fflat-business-woman-user-profile-avatar-icon-vector-4334111&psig=AOvVaw2zmXUfaMuoX37n0nS4FsM7&ust=1565717978236756",
+        name: "Anna Metos",
+        photo: "https://i.pinimg.com/564x/17/01/f2/1701f2a224085608f35d956b25a3b329.jpg",
         scores: [
             3,
             4,
@@ -13,6 +13,38 @@ var friendsArray = [
             1,
             4,
             5
+        ]
+    },
+    {
+        name: "Ryan Jimenez",
+        photo: "https://i.pinimg.com/564x/ee/29/17/ee29170d9966d01b0a113498322e7c76.jpg",
+        scores: [
+            1,
+            5,
+            5,
+            3,
+            4,
+            3,
+            5,
+            2,
+            2,
+            5
+        ]
+    },
+    {
+        name:"Joseph Johnson",
+        photo: "https://i.pinimg.com/564x/6a/14/5f/6a145f749ac7db88191f6b2c14aa4815.jpg",
+        scores: [
+            4,
+            5,
+            3,
+            4,
+            1,
+            3,
+            5,
+            2,
+            3,
+            2
         ]
     }
 ];
